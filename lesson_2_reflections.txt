@@ -3,3 +3,14 @@ Why do you need to do it?
 
 You use git init to bring in .git repo with no commits initially in it.
 You need it to track development history a file that you're updating.
+
+This is an example of something that I think I forgot to add. Something about
+the difference between a repo, a WD, and the stageing area and how the stageing
+area is useful for including exactly what you want in your commit.
+
+So, I just saved without adding a commit message and the file was updated.
+
+Now I'm adding a commit message.
+
+This is going to add another commit with blablabla nothing important
+just for funsies.
