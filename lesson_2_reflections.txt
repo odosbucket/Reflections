@@ -14,3 +14,12 @@ Now I'm adding a commit message.
 
 This is going to add another commit with blablabla nothing important
 just for funsies.
+
+This is the third commit. Adding for this note:
+1. make changes to file in atom
+2. save changes
+3. git add <file>
+4. git commit -m "commit message"
+
+Note: saving the changes allows you to make a new commit
+Once the new commit is made, the green added lines go away.
