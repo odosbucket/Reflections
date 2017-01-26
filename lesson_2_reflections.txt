@@ -1,0 +1,5 @@
+What happens when you initialize a repository?
+Why do you need to do it?
+
+You use git init to bring in .git repo with no commits initially in it.
+You need it to track development history a file that you're updating.

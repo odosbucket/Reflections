@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    compare the lines where there are differences to find errors.
+    If all text is on one line for both files, it won't be able to
+    see what is different, just that the two files are different.
+    Keep lines short, 80 to 120 letters.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    you can see how it's grown to better understand the current version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You may lose it if you accidently close the program. you also don't have a bunch of unnecessary versions. choose the identified chunk to save. Much better to save yourself to have logical commits. Too many and it's overwhelming and you're not even going to want to sift through previous versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    To build a file tree for associations. Google Docs doesn't know what's associated. Files that affect each other should be treated in one commit so when one is changed you can see the other versions at that same commit time, and if something is added to all you can see that too.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives a list of all the commits made (at logical breaks in editing). git diff (followed by the first and second ids of the versions) compares the commits, showing what changes were made. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Use git log, then git checkout <ID> to access previous versions.
+	Then you're operating from detached head state, where, if you make
+	changes from a previous version, it'll start a new evolution tree.
+	This means you could make changes that will create a new tree, and 
+	if it doesn't work, you can always return to the original tree
+	and the original results. No harm.
+
+	(p.s. access this text in git bash with vim lesson_1_reflections.txt
+	then some combination of esc and :i) to exit, :x!
+
+    you can see what you did that broke something and return to the original version or improve on it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    developing apps!
