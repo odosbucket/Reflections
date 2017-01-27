@@ -23,3 +23,17 @@ This is the third commit. Adding for this note:
 
 Note: saving the changes allows you to make a new commit
 Once the new commit is made, the green added lines go away.
+
+How can you use the staging area to make sure you have one commit
+per logical change?
+
+use git diff without args to see difference between changes in WD and
+what was in the staging area.
+use git diff --staged to see difference between changes from WD added
+to staging area and the most recent commit (or the commit checked out)
+
+use these to tell what you have in the staging area and what you want
+to put in the commit. You commit what's in the staging area to a new commit,
+so you can use git add to add any files to the staging area.
+
+I'm not sure how to remove them yet..
