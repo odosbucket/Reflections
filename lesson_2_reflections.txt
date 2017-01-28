@@ -43,4 +43,13 @@ your history organized? How would branches help?
 
 Branches are useful for exploring different features that you'd develop
 from the master branch that you don't want to screw up the growth of the
-master with weird stuff.
+master with weird stuff. Development, experimental branches.
+The master is the production quality one.
+Good for organization and collaboration with others and yourself,
+compartmentalize stuff.
+
+How do the diagrams help you visualize the branch structure?
+
+It shows where you started working on a new experimental version
+and how much each branch has grown since that split. Shows how many
+different branches you have testing different things.
