@@ -37,3 +37,10 @@ to put in the commit. You commit what's in the staging area to a new commit,
 so you can use git add to add any files to the staging area.
 
 I'm not sure how to remove them yet..
+
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+Branches are useful for exploring different features that you'd develop
+from the master branch that you don't want to screw up the growth of the
+master with weird stuff.
