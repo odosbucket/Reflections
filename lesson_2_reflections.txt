@@ -53,3 +53,12 @@ How do the diagrams help you visualize the branch structure?
 It shows where you started working on a new experimental version
 and how much each branch has grown since that split. Shows how many
 different branches you have testing different things.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Merge two branches brings both developed branches into one,
+and you merge an offshoot into the master, so that the new commit is part of
+master. The diagram wit hthe arrows shows the how each commit points to
+its parents. Merging a branch into the master shows the most recent commit
+of the master pointing to its two commits.
