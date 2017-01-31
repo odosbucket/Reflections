@@ -62,3 +62,12 @@ and you merge an offshoot into the master, so that the new commit is part of
 master. The diagram wit hthe arrows shows the how each commit points to
 its parents. Merging a branch into the master shows the most recent commit
 of the master pointing to its two commits.
+
+What are the pros and cons of Git's automatic merging vs. always
+doing merges manually?
+
+Git auto merging does the work for you, but when there's a merge conflict
+with certain lines from different people then you have to go in and resolve
+conflicts manually. Git auto merge can also increase redundancy in the code?
+Merges manually take more time and you have to poke around your and other
+peoples' code to resolve conflicts. 
