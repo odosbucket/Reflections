@@ -9,3 +9,12 @@ with your remote repository?
 So you can specify what you want to pull and so you know what's
 been pulled. If there are multiple people working on a project
 it's good to know what's being loaded into your local repository.
+
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+A fork is cloning a repository from someone else on GitHub to your
+GitHub account and GitHub keeps track of these forks so original
+author gets credit. A clone is copying a repository to your own account
+or to your comp. Branches are a line of commits that veer off the master
+to test developing experimental versions of the file.
