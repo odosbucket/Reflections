@@ -18,3 +18,11 @@ GitHub account and GitHub keeps track of these forks so original
 author gets credit. A clone is copying a repository to your own account
 or to your comp. Branches are a line of commits that veer off the master
 to test developing experimental versions of the file.
+
+What is the benefit of having a copy of the last known state
+of the remote stored locally?
+
+The last known state of the remote will tell you what it looked like
+before new changes came in. If you want to merge something you could
+reference this state before pushing to make faster merges? Like
+a snapshot of commits?
