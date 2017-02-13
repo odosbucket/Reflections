@@ -26,3 +26,11 @@ The last known state of the remote will tell you what it looked like
 before new changes came in. If you want to merge something you could
 reference this state before pushing to make faster merges? Like
 a snapshot of commits?
+
+How would you collaborate without using Git or GitHub?
+What would be easier, and what would be harder?
+
+I would use other forums that are similar (I don't know of any) or I'd
+have to do it on an individual basis through email or somesuch.
+GitHub is definitely easier because the community and infrastructure
+are there.
