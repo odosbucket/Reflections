@@ -34,3 +34,15 @@ I would use other forums that are similar (I don't know of any) or I'd
 have to do it on an individual basis through email or somesuch.
 GitHub is definitely easier because the community and infrastructure
 are there.
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+You can play around with ideas without breaking master branch.
+Master is cleaned up, publish ready, other branches are experiments
+and messy and may or may not add/change things that you want to
+have in the master. With other branches it's suggesting an idea to add
+to master. Also people are more aware of basal changes happening when
+changes are added to branches before merged to master because
+they have to go through the steps to merge the changes, so they know
+what's going on with the changes introduced into the master.
